@@ -1,9 +1,9 @@
 import { View } from "react-native";
 
-import { globalStyles } from "@/styles/global-styles";
-import ThemeText from "@/components/ThemeText";
-import CalculatorButton from "@/components/CalculatorButton";
 import { Colors } from "@/constants/Colors";
+import { globalStyles } from "@/styles/global-styles";
+import CalculatorButton from "@/components/CalculatorButton";
+import ThemeText from "@/components/ThemeText";
 
 const CalculatorApp = () => {
   return (
