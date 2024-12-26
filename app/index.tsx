@@ -1,9 +1,12 @@
 import { View, Text } from 'react-native'
-import React from 'react'
+
+import { globalStyles } from '@/styles/global-styles'
 
 const CalculatorApp = () => {
   return (
-    <View>
+    <View
+      style={ globalStyles.calculatorContainer }
+    >
       <Text
         style={{
           fontSize: 50,
